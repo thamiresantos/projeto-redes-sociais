@@ -10,6 +10,7 @@ html,body {
     width: 100vw;
 }
 
+ /* imagem de fundo*/
 body{
     background-image:url('../imagens/fundo-madeira.jpg');
     background-size: cover;
@@ -21,6 +22,7 @@ main{
     position: relative;
 }
 
+/* telefone*/
 #iphone{
     position: relative;
     top: 50%;
@@ -33,6 +35,14 @@ main{
     
 }
 
+/* iframe dentro do telefone*/
+#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
 #menu{
    
     
